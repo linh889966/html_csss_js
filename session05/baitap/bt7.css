@@ -1,0 +1,24 @@
+.class1{
+    background-color: green;
+    color: aliceblue;
+}
+.class2{
+    background-color: darkgoldenrod;
+}
+.class3{
+    background-color: brown;
+    color: hsl(0, 0%, 97%);
+}
+.div1{
+    background-color: lightslategray;
+}
+.tr1{
+    background-color: white;
+}
+.tr2{
+    background-color: white;
+}
+.th{
+    background-color: dodgerblue;
+    color: white;
+}

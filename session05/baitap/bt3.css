@@ -1,0 +1,19 @@
+div{
+    background-color: darkgray;
+}
+h1{
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: rgb(47, 47, 212);
+    color: white;
+}

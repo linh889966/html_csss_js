@@ -1,0 +1,12 @@
+.h1{
+    color: dodgerblue;
+}
+
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    border-left: 6px solid rgb(138, 144, 86) ;
+    background-color: bisque;
+}
