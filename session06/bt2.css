@@ -1,0 +1,24 @@
+.div0{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    height: 300px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+button{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    width: 170px ;
+    border-radius: 5%;
+
+}
+.body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}

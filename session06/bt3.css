@@ -1,0 +1,49 @@
+.all{
+    background-color: darkgray;
+}
+.body1{
+    text-align: center;
+}
+.div1{
+    color: white;
+    background-color: black;
+    
+}
+.a1{
+    display: inline-block;
+    color: white; 
+    text-decoration: none;
+    padding: 0.07cm;
+}
+.div3{
+    color: black;
+    background-color: white;
+
+}
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 150px;
+    margin-right: 10px;
+    border-radius: 10px; 
+    margin-left: 10px;
+
+}
+.div4{
+    text-align: center;
+}
+.img{
+    vertical-align: middle;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50px;
+}
+.p1{
+    display: inline-block;
+}
+.span1{
+    color: black;
+}
