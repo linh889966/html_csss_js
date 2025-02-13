@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.h1{
+    border-left: 6px solid rgb(255, 123, 0);
+}
+.div1{
+    line-height: 50px;
+}
+.ptext{
+    position: absolute;
+    color: gray;
+    margin: -80px;
+    padding-left: 80px;
+}
