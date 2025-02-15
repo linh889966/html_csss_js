@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.div{
+    background-color: rgba(187, 187, 187, 0.259);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+.p1{
+    font-size: large;
+    color: rgba(46, 32, 32, 0.721);
+
+}
+.div2{
+    position: relative;
+    top: 80px;
+}
+.div3{
+    position: relative;
+    top: 180px;
+    background-color: rgba(126, 122, 122, 0.452);
+    height: 150px;
+    width: 450px;
+    position: relative;
+    left: -100px;
+    top: 105px;
+
+}
+.p1{
+    margin: 10px 10px -30px 10px;
+}
+.p2{
+    position: relative;
+    top: 50px;
+    color: gray;
+}
+.p3{
+    position: relative;
+    top: 100px;
+    color: rgb(71, 65, 65);
+    position: relative;
+    bottom: -50px;
+}
+.button1{
+    width: 130px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+}
+.button2{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: gray;
+}
+.icon{
+    position: relative;
+    top: 50px;
+    margin-bottom: -45px;
+}
+.span1{
+    margin-left: 50px;
+}
