@@ -1,1 +1,38 @@
-
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div2{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.div2 div{
+    width: 16%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(227, 26, 227, 0.541);
+    border-radius: 8px;
+}
+.class{
+    margin-right: auto;
+    margin-left: 10px;
+}
+.class2{
+    margin-right: 10px;
+    margin-left: auto;
+}
