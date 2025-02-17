@@ -1,49 +1,40 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+
 }
-.all{
-    height: 300px;
-    width: 50%;
-    border: 2px solid black;
-    display: flex;
+
+.div1 {
+    color: #fff;
 }
-.div1{
-    background-color: aqua;
+
+.div1 .header {
+    background-color: rgb(123, 37, 123);
+    margin-bottom: 10px;
     height: 40px;
-    display: flex;
-    gap: 20px;
-    width: 150%;
-    flex-wrap: wrap;
-    gap: 20px;
     align-items: center;
-    justify-content: center;
-
-
-}
-.div2{
-    height: 100%;
-    width: 100%;
-
-}
-.all div22{
-    background-color: rgb(68, 0, 255);
-    height: 100px;
-    width: 100px;
     display: flex;
-    gap: 20px;
-}
-.div222{
-    background-color: rgb(255, 0, 68);
-    height: 40px;
-    display: flex;
-    gap: 20px;
-}
-.div3{
-    background-color: rgb(17, 255, 0);
-    height: 40px;
-    display: flex;
-    gap: 20px;
 }
 
+.div1 .div2 {
+    display: flex;
+    gap: 10px;
+}
+
+.div2 .sidebar {
+    flex: 1;
+    background-color: red;
+    height: 500px;
+}
+
+.div2 .content {
+    flex: 3;
+    background-color: green;
+    height: 500px;
+}
+
+.div1 .footer {
+    margin-top: 10px;
+    background-color: rgb(128, 64, 128);
+}
