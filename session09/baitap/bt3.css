@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.all{
+    height: 200px;
+    width: 80%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all div{
+    height: 100px;
+    width: 30%;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(127, 146, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all3 {
+    margin-top: -20px;
+}
+.all3 divflex{
+    flex: 2px;
+}
+.all3 divflex1{
+    flex: 1px;
+}
+.all all2{
+    height: 50px;
+    width: 50px;
+}
+.

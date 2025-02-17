@@ -1,0 +1,26 @@
+
+.all{
+    height: 140px;
+    width: 100%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.all div{
+    height: 50px;
+    width: 23%;
+    color: white;
+    border-radius: 5px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.top{
+    margin-top: -20px;
+}

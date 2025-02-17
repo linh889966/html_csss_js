@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    height: 300px;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+}
+.div1{
+    background-color: aqua;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    width: 150%;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.div2{
+    height: 100%;
+    width: 100%;
+
+}
+.all div22{
+    background-color: rgb(68, 0, 255);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    gap: 20px;
+}
+.div222{
+    background-color: rgb(255, 0, 68);
+    height: 40px;
+    display: flex;
+    gap: 20px;
+}
+.div3{
+    background-color: rgb(17, 255, 0);
+    height: 40px;
+    display: flex;
+    gap: 20px;
+}
+

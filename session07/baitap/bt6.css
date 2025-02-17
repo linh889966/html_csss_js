@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    position: relative;
+    top: 100px;
+}
+.class1{
+    position: relative;
+    top: 15px;
+}
+.span2{
+    width: 600x;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    color: blue;
+    background-color: lightskyblue;
+}
+.span3{
+    position: relative;
+    top: 60px;
+}
+.span4{
+    position: relative;
+    top: 100px;
+}
+.span5{
+    position: relative;
+    top: 150px;
+}
+.span6{
+    color: brown;
+}
