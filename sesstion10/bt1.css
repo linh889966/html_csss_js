@@ -12,7 +12,7 @@ body{
     
 
 }
-div{
+.div{
     height: 80px;
     line-height: 30px;
     background-color: rgba(149, 149, 149, 0.222);
@@ -43,4 +43,10 @@ div{
 }
 .class2{
     color: black;
+}
+@media (max-width: 500px) {
+.div{
+    background-color: brown;
+}
+
 }
