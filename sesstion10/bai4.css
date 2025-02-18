@@ -1,0 +1,47 @@
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ }
+.divhi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-right: -50px;
+
+}
+.divhead{
+    height: 500px;
+    width: 800px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.diva{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border: 1px solid white;
+}
+.img1 {
+    padding-top: 170px;
+   padding-left: 50px;
+}
+.img11{
+    border-radius: 100px ;
+}
+.a{
+    color: black;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.divhi1{
+    padding-left: 20px;
+}
