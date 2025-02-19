@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cha {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cha .hi {
+    background-color: brown;
+    width: calc(25% - 20px);
+    min-height: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cha .hi{
+        width: calc(50% - 20px);
+    }
+}
