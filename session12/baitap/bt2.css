@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.inputall{
+    display: flex;
+    line-height: 50px;
+}
+.inputall, .c1{
+    justify-content: space-between;
+}
+body{
+    line-height: 40px;
+    font-size: 20px;
+    display: flex;
+    padding: 20px 20px;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}

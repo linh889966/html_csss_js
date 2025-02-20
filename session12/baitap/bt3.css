@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    height: 400px;
+    width: 40%;
+    background-color: rgba(106, 106, 106, 0.215);
+    border: 10px;
+}
+.from-control{
+    width: 100px;
+}
+i, .fa-solid fa-xmark{
+    width: 100px;
+    height: 100px;
+}

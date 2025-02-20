@@ -1,38 +1,69 @@
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 .divall{
-    background-color: rgba(193, 174, 174, 0.662);
-    width: 60%;
+    background-color: rgba(203, 190, 190, 0.571);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
-.divall .div1 {
-    background-color: forestgreen;
-    width: 95%;
-    height: 50px;
+.class1{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
-.div2{
-    background-color: brown;
-    width: 95%;
-    height: 100px;
-}
-.div3 .div33{
-    background-color: deeppink;
-    width: 95%;
-    height: 50px;
+.class3{
     display: flex;
-    gap: 20px;
-}
-.div4 .div44{
-    background-color: chocolate;
-    width: 95%;
-    height: 50px;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.class4{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div1, .div2{
+    background-color: rgb(208, 126, 33);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    background-color: deepskyblue;
+    width: 100%;
+    height: 120px;;
+
+}
+.div4, .div5, .div6{
+    background-color: chartreuse;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div7, .div8, .div9, .div10{
+    background-color: rgba(128, 128, 128, 0.382);
+    width: calc(50% - 20px);
+    height: 60px;
+}
+@media screen and{
+    
 }
