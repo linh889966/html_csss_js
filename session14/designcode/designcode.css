@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    width: 100%;
+}
+/* css phan header */
+.header{
+    background-color: antiquewhite;
+    height: 150px;
+    display: flex;  
+    gap: 1200px;   
+}
+.header_title{
+    width: 500px;
+    display: flex;
+    flex: none;
+    justify-content: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+
+}
+.header_right{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    gap: 20px; 
+    justify-content: end;
+    padding-top: 50px;
+}
+.header_right_project{
+    margin-top: 20px;
+}
+.header_right_button{
+    height: 70px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+/* css phan infor */
+.infor{
+    display: flex;
+    border: 1px solid black;
+    
+}
+.infor_left{
+    background-color: bisque;
+    height: 500px;
+    width: 50%;
+}
+
+.infor_left_text{
+    height: 311px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 50px;
+}
+.infor_left_text_p{
+    font-size: 50px;
+}
+
+.infor_left_text_i{
+    display: flex;
+    flex-direction: column;
+
+}
+.infor_left_text_years{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 200px;
+}
+.infor_text1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.span3{
+    width: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.years{
+    width: px;
+}
+.span1k{
+    width: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.infor_left_text_button{
+
+}
+.bt{
+    height: 50px;
+    width: 200px;
+    color: black ;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.infor .infor_right .image{
+
+}
+/* css phan main */
+.main{
+    background-color: #C6C2CD ;
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main_title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.main_title_pr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    
+}
+.main_title_p{
+    color: blueviolet;
+    padding: 60px 50px 5px;
+}
+.main_title_r{
+    font-size: 50px;
+}
+
+
+.main_img1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.main_img1_all{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.hihi{
+    padding: 30px;
+}
+.main_img1_all_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.ui{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_img2_all{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.main_img2_all_text{
+  padding: 20px; 
+}
+
+
+.main_img2{  
+    display: flex; 
+    flex-direction: row;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.main_img3_all{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 550px;
+    padding: 30px;
+}
+
+
+.main_img4_all{
+    background-color: white;
+    width: 550px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 30px;
+}
+/* css phan footer */
+.footer{
+    background-color: #FFD7D4 ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.footer_lp{
+    display: flex;
+    flex-direction: column;
+}
+.footer_let{
+    display: flex;
+    justify-content: center;
+}
+.footer_let{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer_please{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer_ecw{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.footer_email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+
+}
+.footer_call{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+}
+.footer_web{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+}
+/*ft */
+.ft{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.ft_copy{
+    margin-top: 30px;
+}
