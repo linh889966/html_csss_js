@@ -11,24 +11,20 @@ body{
 .header{
     background-color: antiquewhite;
     height: 150px;
-    display: flex;  
-    gap: 1200px;   
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    gap: 490px;   
 }
 .header_title{
     width: 500px;
-    display: flex;
-    flex: none;
-    justify-content: end;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 50px;
+    padding: 50px;
 
 }
 .header_right{
-    width: 600px;
+    width: 400px;
     display: flex;
-    justify-content: end;
     gap: 20px; 
-    justify-content: end;
     padding-top: 50px;
 }
 .header_right_project{
@@ -67,14 +63,14 @@ body{
 
 .infor_left_text_i{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 .infor_left_text_years{
     display: flex;
     flex-direction: row;
     width: 50%;
-    gap: 200px;
+    gap: 100px;
 }
 .infor_text1{
     display: flex;
@@ -82,15 +78,14 @@ body{
     width: 500px;
 }
 .span3{
-    width: 10px;
+    width: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
 }
 .years{
-    width: px;
 }
 .span1k{
-    width: 10px;
+    width: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
 }
