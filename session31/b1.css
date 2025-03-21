@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 2px solid gray;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#toggle-text:checked + .text {
+    display: none;
+}
+
+#toggle-text:checked + label::after {
+    content: " Show text";
+}
